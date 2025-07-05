@@ -1,41 +1,41 @@
 body {
-  font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #2b5876, #4e4376);
-  color: #fff;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
   margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
-.container {
+header {
+  background-color: #004aad;
+  color: white;
+  padding: 2rem;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.3);
-  padding: 30px;
-  border-radius: 10px;
-  width: 90%;
-  max-width: 400px;
 }
 
-input {
-  padding: 10px;
-  width: 80%;
-  border: none;
-  border-radius: 5px;
-  margin-bottom: 10px;
+.profile-photo {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 1rem;
 }
 
-button {
-  padding: 10px 20px;
-  background-color: #ffc107;
-  color: #000;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+nav a {
+  margin: 0 10px;
+  color: #ffeb3b;
+  text-decoration: none;
 }
 
-.weather-result {
-  margin-top: 20px;
+section {
+  padding: 2rem;
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
 }
 
